@@ -1,0 +1,43 @@
+.scan-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.scan-card-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.scan-card-preview {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .scan-card-container {
+        padding: 10px;
+    }
+
+    .scan-card-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .scan-card-preview {
+        width: 90%;
+    }
+}
