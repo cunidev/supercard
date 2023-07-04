@@ -1,0 +1,35 @@
+.barcode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.barcode-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.barcode-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.barcode-type {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.barcode-value {
+    font-size: 14px;
+    color: #666;
+}
+
+@media screen and (max-width: 600px) {
+    .barcode-container {
+        flex-direction: column;
+    }
+}
